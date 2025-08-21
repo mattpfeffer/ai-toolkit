@@ -30,10 +30,10 @@
     },
     "profileSources": {
         "@def": "inline:defaultProfile",
-        "@pro": "https://raw.githubusercontent.com/mattpfeffer/ai-toolkit/<COMMIT>/profiles/professional.json",
-        "@tech": "https://raw.githubusercontent.com/mattpfeffer/ai-toolkit/<COMMIT>/profiles/technical.json",
-        "@des": "https://raw.githubusercontent.com/mattpfeffer/ai-toolkit/<COMMIT>/profiles/design.json",
-        "@ch": "https://raw.githubusercontent.com/mattpfeffer/ai-toolkit/<COMMIT>/profiles/church.json"
+        "@pro": "https://<TOKEN>@raw.githubusercontent.com/mattpfeffer/ai-toolkit/28310ebf77f766cd18f61401387040967128e1a0/profiles/professional.json",
+        "@tech": "https://<TOKEN>@raw.githubusercontent.com/mattpfeffer/ai-toolkit/28310ebf77f766cd18f61401387040967128e1a0/profiles/technical.json",
+        "@des": "https://<TOKEN>@raw.githubusercontent.com/mattpfeffer/ai-toolkit/28310ebf77f766cd18f61401387040967128e1a0/profiles/design.json",
+        "@ch": "https://<TOKEN>@raw.githubusercontent.com/mattpfeffer/ai-toolkit/28310ebf77f766cd18f61401387040967128e1a0/profiles/church.json"
     },
     "checksumPolicy": {
         "algorithm": "SHA-256",
