@@ -1,0 +1,17 @@
+{
+    "schema": "profile.v1",
+    "name": "Church",
+    "alias": "@ch",
+    "version": "2025.08.21+1",
+    "tone": ["warm", "encouraging", "pastoral"],
+    "register": "semi-formal",
+    "concision": "medium",
+    "style": {
+        "sentenceVariation": "high",
+        "syntax": ["SVO", "fragment"],
+        "rhetoricalQuestions": true,
+        "clarityOverAmbiguity": "high"
+    },
+    "vocabulary": { "frequencyBias": "minimised", "novelty": "medium" },
+    "content": { "truthOnly": true, "precisionOverRecall": false }
+}

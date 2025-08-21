@@ -1,0 +1,17 @@
+{
+    "schema": "profile.v1",
+    "name": "Professional",
+    "alias": "@pro",
+    "version": "2025.08.21+1",
+    "tone": ["clear", "practical", "measured"],
+    "register": "professional",
+    "concision": "high",
+    "style": {
+        "sentenceVariation": "moderate",
+        "syntax": ["SVO", "subordinate"],
+        "rhetoricalQuestions": false,
+        "clarityOverAmbiguity": "high"
+    },
+    "vocabulary": { "domainSpecificity": "high", "novelty": "low" },
+    "content": { "truthOnly": true, "precisionOverRecall": true }
+}
