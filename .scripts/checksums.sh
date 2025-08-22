@@ -2,10 +2,10 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")"/.. && pwd)"
-PROFILES_DIR="$ROOT/profiles"
+CONFIG_DIR="$ROOT/configurations"
 
-if [[ ! -d "$PROFILES_DIR" ]]; then
-  echo "Profiles directory not found at: $PROFILES_DIR" >&2
+if [[ ! -d "$CONFIG_DIR" ]]; then
+  echo "Configurations directory not found at: $CONFIG_DIR" >&2
   exit 1
 fi
 
@@ -38,7 +38,7 @@ while IFS= read -r -d '' json; do
     echo "Updated: $(basename "$sidecar")"
     changed=$((changed+1))
   fi
-done < <(find "$PROFILES_DIR" -maxdepth 1 -type f -name "*.json" -print0)
+done < <(find "$CONFIG_DIR" -type f -name "*.json" -print0)
 
 if [[ $changed -eq 0 ]]; then
   echo "No changes. All checksums up to date."

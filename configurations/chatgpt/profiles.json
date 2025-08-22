@@ -1,0 +1,70 @@
+{
+    "@des": {
+        "schema": "profile.v1",
+        "name": "Design",
+        "version": "2025.08.22+1",
+        "tone": ["imaginative", "practical", "curious"],
+        "register": "medium",
+        "concision": "medium",
+        "style": {
+            "sentenceVariation": "high",
+            "syntax": ["SVO", "subordinate", "fragment"],
+            "rhetoricalQuestions": true,
+            "clarityOverAmbiguity": "high"
+        },
+        "vocabulary": {
+            "domainSpecificity": "high",
+            "novelty": "medium",
+            "frequencyBias": "minimised"
+        },
+        "content": { "truthOnly": true, "precisionOverRecall": true }
+    },
+    "@tech": {
+        "schema": "profile.v1",
+        "name": "Technical",
+        "version": "2025.08.22+1",
+        "tone": ["direct", "matterOfFact", "succinct"],
+        "register": "informal",
+        "concision": "high",
+        "style": {
+            "sentenceVariation": "low",
+            "syntax": ["SVO"],
+            "rhetoricalQuestions": false,
+            "clarityOverAmbiguity": "high"
+        },
+        "vocabulary": { "domainSpecificity": "asRequired", "novelty": "low" },
+        "content": { "truthOnly": true, "precisionOverRecall": true }
+    },
+    "@pro": {
+        "schema": "profile.v1",
+        "name": "Professional",
+        "version": "2025.08.22+1",
+        "tone": ["clear", "practical", "measured"],
+        "register": "professional",
+        "concision": "high",
+        "style": {
+            "sentenceVariation": "moderate",
+            "syntax": ["SVO", "subordinate"],
+            "rhetoricalQuestions": false,
+            "clarityOverAmbiguity": "high"
+        },
+        "vocabulary": { "domainSpecificity": "high", "novelty": "low" },
+        "content": { "truthOnly": true, "precisionOverRecall": true }
+    },
+    "@ch": {
+        "schema": "profile.v1",
+        "name": "Church",
+        "version": "2025.08.22+1",
+        "tone": ["warm", "encouraging", "pastoral"],
+        "register": "semi-formal",
+        "concision": "medium",
+        "style": {
+            "sentenceVariation": "high",
+            "syntax": ["SVO", "fragment"],
+            "rhetoricalQuestions": true,
+            "clarityOverAmbiguity": "high"
+        },
+        "vocabulary": { "frequencyBias": "minimised", "novelty": "medium" },
+        "content": { "truthOnly": true, "precisionOverRecall": false }
+    }
+}
