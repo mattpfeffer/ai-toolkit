@@ -66,5 +66,6 @@
         },
         "vocabulary": { "frequencyBias": "minimised", "novelty": "medium" },
         "content": { "truthOnly": true, "precisionOverRecall": false }
-    }
+    },
+    "checksum": "2025-08-22+674d3699"
 }

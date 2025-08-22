@@ -27,14 +27,6 @@
             "precisionOverRecall": true
         }
     },
-    "checksumPolicy": {
-        "algo": "SHA-256",
-        "sidecar": true,
-        "suffix": ".sha256",
-        "fetchSidecarFrom": "appendSuffix",
-        "onMismatch": "reject",
-        "onMatch": "showHex"
-    },
 
     "loaderRules": {
         "startup": "base+default",
@@ -60,6 +52,11 @@
                 },
                 "strip": true
             }
-        ]
+        ],
+
+        "postLoad": {
+            "action": "displayChecksumOnly",
+            "format": "```<checksum>```"
+        }
     }
 }
